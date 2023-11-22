@@ -1,0 +1,125 @@
+.mainn{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.mainn-top-box{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px auto;
+}
+
+
+.mainn-title-text {
+    font-size: 22px;
+    width: 70%;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease-in-out;
+    text-indent: 20px;
+    user-select: none;
+    margin: auto 0px;
+}
+
+
+
+
+.mainn-line{
+    background-color: #282C34;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 0px;
+}
+
+.mainn-box{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mainn-text{
+    font-size: 20px;
+}
+
+
+
+.mainn-button {
+    background-color: #D94452;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: flex-start;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    max-width: 214px;
+    padding: 0;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    text-decoration: none;
+}
+
+.mainn-button:hover {
+    background-color: white;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.mainn-button:active {
+    background-color: #D94452;
+    color: white;
+    transform: scale(0.95);
+}
+
+
+.mainn-image{
+    width: 50%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .mainn-button {
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    width: 100px;
+    }
+    .mainn-text{
+    font-size: 10px;
+    }
+    .mainn-box{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+}

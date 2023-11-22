@@ -1,0 +1,135 @@
+.footer {
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EEEEEE !important;
+    color: #000000;
+    width: 100%;
+    min-height: 160px;
+}
+
+.footer-column{
+    text-align: center;
+}
+
+.column-name, .column-link,.footer-column{
+    background-color: #EEEEEE !important;
+}
+
+.column-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    max-width: 30px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.footer-end{
+    width: 100%;
+    height: 0px;
+}
+.footer-buttons{
+    background-color: #EEEEEE  !important;
+    text-align: center;
+    padding: 10px 0px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE !important;
+}
+.footer-pay{
+    width: 30px;
+    margin: 0px 10px;
+}
+
+.footer-social, .footer-pay{
+    width: 30px;
+    margin: 0px 10px;
+    cursor: pointer;
+    background-color: #EEEEEE !important;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #DDDDDD !important;
+    color: black;
+    padding: 5px 0px;
+}
+
+.footer-bottom p{
+    background-color: #DDDDDD !important;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        min-height: auto;
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+
+    .footer-column {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .column-name {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        margin: 0 8px;
+    }
+
+    .social-icons img {
+        max-width: 24px;
+    }
+
+    .contact-info p {
+        margin-bottom: 10px;
+    }
+
+    .footer-buttons {
+        padding: 8px 0;
+    }
+
+    .footer-pay,
+    .footer-social {
+        width: 20px;
+        margin: 0 8px;
+    }
+
+    .footer-bottom {
+        padding: 3px 0;
+        font-size: 12px;
+    }
+}
