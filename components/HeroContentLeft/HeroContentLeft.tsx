@@ -1,4 +1,5 @@
-import { Overlay, Container, Title, Button, Text } from '@mantine/core';
+import React from 'react';
+import { Overlay, Container, Title, Text } from '@mantine/core';
 import './HeroContentLeft.css';
 import { Link } from 'react-router-dom';
 

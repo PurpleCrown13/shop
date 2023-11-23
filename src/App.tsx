@@ -12,7 +12,7 @@ import DetailedWomen from '../components/DetailedWomen/DetailedWomen';
 import AboutUs from '../components/AboutUs/AboutUs';
 import Footer from '../components/Footer/Footer';
 import Cart from '../components/Cart/Cart';
-import { HeroContentLeft } from "c:/Users/BlackHeart/shop/components/HeroContentLeft/HeroContentLeft";
+import { HeroContentLeft }  from "../components/HeroContentLeft/HeroContentLeft";
 
 function App() {
   return (
